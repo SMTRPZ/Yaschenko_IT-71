@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_15.CreatorEasyTable">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\CreatorEasyTable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EasyTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.CreatorHardTable">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\CreatorHardTable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HardTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.CreatorRandomTurnTable">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\CreatorRandomTurnTable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RandomTurnTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.EasyTable">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\EasyTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.RandomTurnTable">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\RandomTurnTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.HardTable">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\HardTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.Table">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAgAAgAIACIAAAAAAAAAAIQEAAAABABAA=</HashCode>
+      <FileName>Table\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.CreatorTable">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAQAAAAQAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table\CreatorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.Game">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABCAAAABAQAAAJEAAQBAAAAQBAAAEE=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Command" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.Memento">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAQAAAAAQAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Memento\Memento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_15.Caretaker">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Memento\Caretaker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Memento" />
+      <Property Name="Game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.Command">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABARAAAAAQAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Command\Command.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Table" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_15.Invoker">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAABAQAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Command\Invoker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Command" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
